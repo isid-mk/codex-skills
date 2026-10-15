@@ -1,0 +1,2 @@
+# Preserve bundled hashes, templates, and original line endings.
+skills/** -text
