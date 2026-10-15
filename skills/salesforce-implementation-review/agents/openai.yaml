@@ -1,0 +1,4 @@
+interface:
+  display_name: "Salesforce実装レビュー"
+  short_description: "設計書とメタデータを照合し、根拠付きExcelレビューを作成"
+  default_prompt: "Use $salesforce-implementation-review to compare the supplied Salesforce design documents and metadata and produce an evidence-based Excel review."

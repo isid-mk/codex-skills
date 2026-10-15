@@ -1,0 +1,4 @@
+interface:
+  display_name: "オブジェクト名称横展開一覧"
+  short_description: "Grep結果から設計書別の表示ラベル変更一覧を作成"
+  default_prompt: "Use $object-label-rollout-list to create a design-document rollout workbook from an object-name Grep CSV."

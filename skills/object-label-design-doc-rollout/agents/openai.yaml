@@ -1,0 +1,4 @@
+interface:
+  display_name: "設計書ラベル横展開"
+  short_description: "指定output配下へ設計書を複製し、変更文字列だけ赤字で更新"
+  default_prompt: "Use $object-label-design-doc-rollout to apply this rollout list under the designated 国民CRM/設計書作業/output folder."

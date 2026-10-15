@@ -1,0 +1,22 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local credentials and environment
+.env
+.env.*
+!.env.example
+.auth/
+.sf/
+.sfdx/
+cdp-local/
+edge-profile/
+
+# Local runs and dependencies
+node_modules/
+.venv/
+venv/
+*.log
+~$*
+.DS_Store
+Thumbs.db

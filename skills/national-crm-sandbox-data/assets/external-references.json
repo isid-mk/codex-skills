@@ -1,0 +1,78 @@
+{
+  "branch:A03": {
+    "object": "BranchMaster__c",
+    "match": {
+      "BranchCode__c": "A03"
+    },
+    "source_label": "融資企画部"
+  },
+  "staff:kn00004": {
+    "object": "User",
+    "match": {
+      "StaffID__c": "kn00004"
+    },
+    "source_label": "地区・支店A_東京中央支店",
+    "profile": "地区・支店A",
+    "must_be_active": true
+  },
+  "staff:kn10001": {
+    "object": "User",
+    "match": {
+      "StaffID__c": "kn10001"
+    },
+    "source_label": "地区・支店B_池袋支店",
+    "profile": "地区・支店B",
+    "must_be_active": true
+  },
+  "branch:451": {
+    "object": "BranchMaster__c",
+    "match": {
+      "BranchCode__c": "451"
+    },
+    "source_label": "東京中央支店"
+  },
+  "branch:461": {
+    "object": "BranchMaster__c",
+    "match": {
+      "BranchCode__c": "461"
+    },
+    "source_label": "横浜支店"
+  },
+  "branch:C04": {
+    "object": "BranchMaster__c",
+    "match": {
+      "BranchCode__c": "C04"
+    },
+    "source_label": "東京地区債権業務室"
+  },
+  "staff:kn00001": {
+    "object": "User",
+    "match": {
+      "StaffID__c": "kn00001"
+    },
+    "source_label": "本店A_営業推進部",
+    "profile": "本店A",
+    "must_be_active": true
+  },
+  "desk:91": {
+    "object": "DeskNameMaster__c",
+    "match": {
+      "SpecialConsultationDeskCode__c": "91"
+    },
+    "source_label": "平成28年熊本県熊本地方の震災"
+  },
+  "desk:92": {
+    "object": "DeskNameMaster__c",
+    "match": {
+      "SpecialConsultationDeskCode__c": "92"
+    },
+    "source_label": "令和6年能登半島地震"
+  },
+  "desk:93": {
+    "object": "DeskNameMaster__c",
+    "match": {
+      "SpecialConsultationDeskCode__c": "93"
+    },
+    "source_label": "令和元年台風第19号に伴う災害"
+  }
+}

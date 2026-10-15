@@ -1,0 +1,4 @@
+interface:
+  display_name: "国民CRM Sandboxデータ投入"
+  short_description: "完成版業務データを別Sandboxへ移植し、設定変更を禁止する"
+  default_prompt: "$national-crm-sandbox-data を使い、指定したSandboxへ国民CRMの完成版データを投入してください。設定は変更せず、不明点があれば書込みを止めて確認してください。"

@@ -1,0 +1,19 @@
+{
+  "target_alias": null,
+  "expected_org_id": null,
+  "expected_username": null,
+  "api_version": "68.0",
+  "data_write_requested": false,
+  "users_requested": false,
+  "password_setting_requested": false,
+  "preflight_complete": false,
+  "unresolved": [
+    "投入先・実行モード・スキーマ・重複識別・全参照先を事前照合して確定する"
+  ],
+  "bundle_sha256": null,
+  "authorized_update_ids": {},
+  "password_user_ids": [],
+  "password_targets_verified": false,
+  "authorized_update_fields": {},
+  "authorized_document_update_ids": []
+}

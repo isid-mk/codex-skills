@@ -1,0 +1,56 @@
+[
+  {
+    "key": "File:04_設備投資相談メモ.txt",
+    "title": "青葉商店株式会社 設備投資相談メモ",
+    "path": "files/04_設備投資相談メモ.txt",
+    "publish_to": {
+      "$record": "Account:122690000004"
+    },
+    "sha256": "1f96d7ad47fbf806acc222b7d78d380ecabae6ec7b576e8c77f94c7ddf9b9306"
+  },
+  {
+    "key": "File:03_設備投資相談メモ.txt",
+    "title": "株式会社青葉食堂 設備投資相談メモ",
+    "path": "files/03_設備投資相談メモ.txt",
+    "publish_to": {
+      "$record": "Account:112690000003"
+    },
+    "sha256": "8f674659b753d35c8d1108733a62b7783bed559ae4fa633302cea8387f17ac5d"
+  },
+  {
+    "key": "File:06_設備投資相談メモ.txt",
+    "title": "株式会社みなとシステム 設備投資相談メモ",
+    "path": "files/06_設備投資相談メモ.txt",
+    "publish_to": {
+      "$record": "Account:142690000006"
+    },
+    "sha256": "30ab886171226153b7a5f80ef02188c6cf28ecbac109c1c00d8de451fa8baf01"
+  },
+  {
+    "key": "File:05_設備投資相談メモ.txt",
+    "title": "株式会社サクラ設備 設備投資相談メモ",
+    "path": "files/05_設備投資相談メモ.txt",
+    "publish_to": {
+      "$record": "Account:132690000005"
+    },
+    "sha256": "9f4aa6d672e5cd00ea07bb9fb4b0554fe6fc9884c0b757bd4cf534e1a3080583"
+  },
+  {
+    "key": "File:02_設備投資相談メモ.txt",
+    "title": "株式会社青葉精工 設備投資相談メモ",
+    "path": "files/02_設備投資相談メモ.txt",
+    "publish_to": {
+      "$record": "Account:142690000002"
+    },
+    "sha256": "be17f81fa85ab644424c451be85c4f586f4c59231649ce7076d650a632e5d15a"
+  },
+  {
+    "key": "File:01_設備投資相談メモ.txt",
+    "title": "株式会社青葉食品 設備投資相談メモ",
+    "path": "files/01_設備投資相談メモ.txt",
+    "publish_to": {
+      "$record": "Account:132690000001"
+    },
+    "sha256": "1144f94069cb454f7482ed0d4aff37f39b7f835a8ea78dfd4744d37c5c24f5a8"
+  }
+]

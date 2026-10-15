@@ -1,0 +1,931 @@
+{
+  "version": "2026-10-14",
+  "source_label": "test09完成版",
+  "objects": {
+    "Account": 119,
+    "RelatedOrganization__c": 30,
+    "GenericMaster__c": 8,
+    "FinancialInfo__c": 171,
+    "LoanLedger__c": 74,
+    "LoanLedgerInterestInfo__c": 74,
+    "LoanSpecialProgramDetail__c": 25,
+    "RelatedTransactionPersonInfo__c": 25,
+    "LicenseNumber__c": 25,
+    "CompanyManagerBiography__c": 50,
+    "HandlingProductService__c": 50,
+    "ReceivableManagementInfo__c": 25,
+    "ApproachInfo__c": 50,
+    "RelatedCompanyInfo__c": 25,
+    "CorporationRepresentativeInfo__c": 50,
+    "CompanyProfile__c": 50,
+    "ClientTradeCondition__c": 50,
+    "CustomerKeyPerson__c": 50,
+    "Opportunity": 267,
+    "Solution__c": 48,
+    "RelatedOrganizationManager__c": 30,
+    "RelatedOrganizationCompany__c": 20,
+    "RelatedOrganizationKeyPerson__c": 30,
+    "RelatedOrganizationCustomer__c": 30,
+    "SyndicatedLoanProduct__c": 5,
+    "SalesConsultation__c": 24,
+    "SpecialConsultationDesk__c": 18,
+    "CaseStudy__c": 11,
+    "RelatedOrganizationOpportunity__c": 25,
+    "Referrer__c": 12,
+    "LoanApplication__c": 57,
+    "Task": 334
+  },
+  "business_record_count": 1862,
+  "file_count": 6,
+  "optional_users": {
+    "本店A": 9,
+    "本店B": 22,
+    "本店C": 5,
+    "地区・支店A": 11,
+    "地区・支店B": 11,
+    "集約化拠点A": 4,
+    "集約化拠点B": 4,
+    "集約化拠点C": 4
+  },
+  "record_types": {
+    "Opportunity": [
+      "Finance",
+      "ReceivablesManagement"
+    ],
+    "Solution__c": [
+      "CapitalLoanMonitoring",
+      "CapitalLoanRateRevision",
+      "ConditionChange",
+      "FinancingAfterSupport",
+      "InTermManagement",
+      "LCCTossUp",
+      "LoanSystemFollowUp",
+      "MATossUp"
+    ],
+    "Task": [
+      "FinanceActivities",
+      "InitialMigration",
+      "ReceivablesManagementActivities",
+      "RelatedOrganizationActivities",
+      "SalesConsultationActivities",
+      "SpecialConsultationDeskActivities"
+    ]
+  },
+  "source_dates_preserved": true,
+  "text_normalizations": [
+    {
+      "record": "LoanLedger__c:WT26O0400001",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400002",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400003",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400004",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400005",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400006",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400007",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400008",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400009",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400010",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400011",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400012",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400013",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400014",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400015",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400016",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400017",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400018",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400019",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400020",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400021",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400022",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400023",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400024",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400025",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400026",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400027",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400028",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400029",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400030",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400031",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400032",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400033",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400034",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400035",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400036",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400037",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400038",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400039",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400040",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400041",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400042",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400043",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400044",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400045",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400046",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400047",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400048",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400049",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400050",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400051",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400052",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400053",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400054",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400055",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400056",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400057",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400058",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400059",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400060",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400061",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400062",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400063",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400064",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400065",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400066",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400067",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400068",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400069",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400070",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400074",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400075",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400079",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanLedger__c:WT26O0400080",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanSpecialProgramDetail__c:WT26O0600001",
+      "field": "KanjiSpecialProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanSpecialProgramDetail__c:WT26O0600002",
+      "field": "KanjiSpecialProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanSpecialProgramDetail__c:WT26O0600003",
+      "field": "KanjiSpecialProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanSpecialProgramDetail__c:WT26O0600004",
+      "field": "KanjiSpecialProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanSpecialProgramDetail__c:WT26O0600005",
+      "field": "KanjiSpecialProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanSpecialProgramDetail__c:WT26O0600006",
+      "field": "KanjiSpecialProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanSpecialProgramDetail__c:WT26O0600007",
+      "field": "KanjiSpecialProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanSpecialProgramDetail__c:WT26O0600008",
+      "field": "KanjiSpecialProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanSpecialProgramDetail__c:WT26O0600009",
+      "field": "KanjiSpecialProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanSpecialProgramDetail__c:WT26O0600010",
+      "field": "KanjiSpecialProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanSpecialProgramDetail__c:WT26O0600011",
+      "field": "KanjiSpecialProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanSpecialProgramDetail__c:WT26O0600012",
+      "field": "KanjiSpecialProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanSpecialProgramDetail__c:WT26O0600013",
+      "field": "KanjiSpecialProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanSpecialProgramDetail__c:WT26O0600014",
+      "field": "KanjiSpecialProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanSpecialProgramDetail__c:WT26O0600015",
+      "field": "KanjiSpecialProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanSpecialProgramDetail__c:WT26O0600016",
+      "field": "KanjiSpecialProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanSpecialProgramDetail__c:WT26O0600017",
+      "field": "KanjiSpecialProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanSpecialProgramDetail__c:WT26O0600018",
+      "field": "KanjiSpecialProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanSpecialProgramDetail__c:WT26O0600019",
+      "field": "KanjiSpecialProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanSpecialProgramDetail__c:WT26O0600020",
+      "field": "KanjiSpecialProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanSpecialProgramDetail__c:WT26O0600021",
+      "field": "KanjiSpecialProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanSpecialProgramDetail__c:WT26O0600022",
+      "field": "KanjiSpecialProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanSpecialProgramDetail__c:WT26O0600023",
+      "field": "KanjiSpecialProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanSpecialProgramDetail__c:WT26O0600024",
+      "field": "KanjiSpecialProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanSpecialProgramDetail__c:WT26O0600025",
+      "field": "KanjiSpecialProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "SyndicatedLoanProduct__c:29000001",
+      "field": "CoordinatedFinancingProductsName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "SyndicatedLoanProduct__c:29000001",
+      "field": "CoordinatedFinancingProductsOverview__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "SyndicatedLoanProduct__c:29000002",
+      "field": "CoordinatedFinancingProductsName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "SyndicatedLoanProduct__c:29000002",
+      "field": "CoordinatedFinancingProductsOverview__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "SyndicatedLoanProduct__c:29000003",
+      "field": "CoordinatedFinancingProductsName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "SyndicatedLoanProduct__c:29000003",
+      "field": "CoordinatedFinancingProductsOverview__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "SyndicatedLoanProduct__c:29000004",
+      "field": "CoordinatedFinancingProductsName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "SyndicatedLoanProduct__c:29000004",
+      "field": "CoordinatedFinancingProductsOverview__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "SyndicatedLoanProduct__c:29000005",
+      "field": "CoordinatedFinancingProductsName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "SyndicatedLoanProduct__c:29000005",
+      "field": "CoordinatedFinancingProductsOverview__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000001",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000002",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000003",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000004",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000005",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000006",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000007",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000008",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000009",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000010",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000011",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000012",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000013",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000014",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000015",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000016",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000017",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000018",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000019",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000020",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000021",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000022",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000023",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000024",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000025",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000026",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000027",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000028",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000029",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000030",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000031",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000032",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000033",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000034",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000035",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000036",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000037",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000038",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000039",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000040",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000041",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000042",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000043",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000044",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000045",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000046",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000047",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000048",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000049",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000050",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000051",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000052",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000053",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000054",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000055",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000059",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    },
+    {
+      "record": "LoanApplication__c:WT26O2000060",
+      "field": "LoanKindProgramName__c",
+      "reason": "業務文面から用途注記を除去"
+    }
+  ],
+  "required_external_references": 10,
+  "excluded_write_objects": [
+    "BranchMaster__c",
+    "DepartmentMaster__c",
+    "LoanKindMaster__c",
+    "UsageMaster__c",
+    "SpecialProgramMaster__c",
+    "CapitalMaster__c",
+    "GeneralPurposeMaster__c",
+    "Profile",
+    "UserRole",
+    "PermissionSet",
+    "PermissionSetAssignment",
+    "PermissionSetGroup",
+    "Group",
+    "GroupMember"
+  ],
+  "baseline_hashes": {
+    "business-records.json": "004bb6d69bb6c44e438c641974d951dd2c21bd22a63e131b8400da4d0d930f16",
+    "source-schema.json": "171dcb7375887f5cfd2a6f3993f341daf809e2c05518bab9264266df56ac6258",
+    "external-references.json": "8050023eb2e14c4315a46ac617bc526a2fb60b687a16a8f844108e789b771d11",
+    "user-records.json": "415769c8965603be91a4bb32c8d9b50a7145f6b2c09b243263bfb71042920ebb",
+    "files.json": "aae9f5e38eb7b189a50bd326827e031ad25055f8854930b6c0056b780235d7fd"
+  }
+}
